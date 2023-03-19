@@ -12,14 +12,14 @@ To use this bot, you will need a Telegram account and a bot token. Here's how to
 
 3. Install the required dependencies by running:
 
-```bash
+```javascript
 npm install
 ```
 
 Or
 
-```bash
-yarn
+```javascript
+yarn;
 ```
 
 4. Create a .env file in the root directory of your project and add your Telegram bot token as an environment variable:
@@ -45,7 +45,7 @@ yarn start
 
 To generate a code snippet, send a message to your bot with the following format:
 
-```bash
+```javascript
 /generate <prompt> <language>
 ```
 
